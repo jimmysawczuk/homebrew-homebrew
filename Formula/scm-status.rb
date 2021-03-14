@@ -1,9 +1,9 @@
 class ScmStatus < Formula
+  version "v2.3.0"
   desc "Repository status snapshot generator"
   homepage "jimmysawczuk.github.io/scm-status"
-  url "https://github.com/jimmysawczuk/scm-status/archive/v2.3.0.zip"
+  url "https://github.com/jimmysawczuk/scm-status/archive/#{version}.zip"
   sha256 "b6947fc9f0c65329ab05baf8fb39c6e17ca1ed5242981efeba888d25e8dac46c"
-  version "v2.3.0"
 
   depends_on "go" => :build
 
