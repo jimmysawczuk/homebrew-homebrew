@@ -9,6 +9,6 @@ class Tmpl < Formula
 
   def install
     mkdir bin
-    system "go", "build", "-trimpath", "-ldflags", "-X main.version=#{@version}", "-o", bin, "github.com/jimmysawczuk/tmpl/..."
+    system "go", "build", "-trimpath", "-ldflags", "-X 'main.version=#{version}'", "-o", bin, "github.com/jimmysawczuk/tmpl/..."
   end
 end
