@@ -1,9 +1,9 @@
 class Tmpl < Formula
-  version "v3.2.3"
+  version "v3.2.5"
   desc "Lightweight Go template executor"
   homepage "https://github.com/jimmysawczuk/tmpl"
   url "https://github.com/jimmysawczuk/tmpl/archive/#{version}.zip"
-  sha256 "a9407f34973a80e6c896e20b4194a1cc1dea09938e3cff832306bdd49cfb7b55"
+  sha256 "e35a5c4d5eb141a50a0d568982deaf212ca7567103432454e715a2c308b2aa7b"
 
   depends_on "go" => :build
 
